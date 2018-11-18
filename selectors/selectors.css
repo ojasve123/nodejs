@@ -1,0 +1,9 @@
+li{
+    font-weight: bold;
+}
+ul>li{
+    color: red;
+}
+ul ul{
+    font-style: italic;
+}

@@ -1,0 +1,44 @@
+#samplediv{
+    height: 300px;
+    width: 300px;
+    background-color: indianred;
+}
+
+@media(max-width: 1500px) and (min-width: 1000px)
+{
+    #samplediv{
+        background-color: aquamarine;
+
+    }
+}
+@media(max-width: 1000px) and (min-width: 750px)
+{
+    #samplediv{
+        background-color: rgb(230, 29, 163);
+
+    }
+}
+@media(max-width: 750px) and (min-width: 400px)
+{
+    #samplediv{
+        background-color: rgb(219, 233, 22);
+
+    }
+}
+@media(max-width: 400px)
+{
+    #samplediv{
+        background-color: rgb(245, 102, 7);
+
+    }
+}
+@media(min-width:720px) and(orientation:landscape)
+{
+
+}
+@media(:not(color))
+{
+    #samplediv{
+        background-color: black;
+    }
+}

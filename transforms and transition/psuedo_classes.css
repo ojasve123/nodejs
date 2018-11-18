@@ -1,0 +1,11 @@
+#div1{
+    height: 70px;
+    width: 70px;
+    margin: 150px;
+    background-color: blueviolet;
+    transform: translate(30px,30px);
+    transform: scale(0.5);
+    transform: skew(9deg,5deg);
+    transform: rotate(80deg); 
+    transform: scalex(0.8)
+}
